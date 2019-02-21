@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profileTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profileTitle"
+            android:textColor="@color/red"
+            android:textSize="40sp"
+            android:fontFamily="casual"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/eName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/surname"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/eSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/eLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/ePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/minGlucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minGlucose"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/eMinGlucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:phoneNumber="true"/>
+
+        <TextView
+            android:id="@+id/maxGlucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maxGlucose"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/eMaxGlucose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:phoneNumber="true"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/ePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:phoneNumber="true"/>
+
+        <Button
+            android:id="@+id/bSave"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bsave"
+            android:fontFamily="casual"
+            android:background="@color/red"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

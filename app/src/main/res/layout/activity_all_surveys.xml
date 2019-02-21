@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_surveys"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startDate"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dateFormat"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endDate"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/endDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dateFormat"
+            android:textSize="15sp"
+            android:fontFamily="casual"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/bOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:fontFamily="casual"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

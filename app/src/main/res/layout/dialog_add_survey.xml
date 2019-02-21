@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/surveyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surveyTitle"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/newSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:numeric="integer"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/bNewSurvey"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:fontFamily="casual"
+        android:text="@string/bsave"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

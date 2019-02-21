@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DiabetesApp</string>
+    <string name="add_survey">Add survey</string>
+    <string name="all_surveys">Wszystkie pomiary</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="loggingTitle">Logowanie</string>
+    <string name="login">Login</string>
+    <string name="password">Haslo</string>
+    <string name="blogin">Zaloguj</string>
+    <string name="bregister">Zarejestruj</string>
+    <string name="registerTitle">Rejestracja</string>
+    <string name="name">Imie</string>
+    <string name="surname">Nazwisko</string>
+    <string name="phone">Telefon</string>
+    <string name="profileTitle">Profil</string>
+    <string name="bsave">Zapisz</string>
+    <string name="surveyTitle">Nowy pomiar</string>
+    <string name="startDate">Od:</string>
+    <string name="endDate">Do:</string>
+    <string name="dateFormat">yyyy-mm-dd</string>
+    <string name="ok">OK</string>
+    <string name="id">id</string>
+    <string name="date">Data</string>
+    <string name="survey">Pomiar</string>
+    <string name="minGlucose">Minimalny poziom glukozy</string>
+    <string name="maxGlucose">Maksymalny poziom glukozy</string>
+</resources>
